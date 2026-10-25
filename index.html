@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AgriRAG – Smart Farming Assistant</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<div class="app">
+<div class="top"><h1>Agri<span>RAG</span></h1><span class="mut" id="date"></span></div>
+
+<section id="home">
+<div class="hero"><h2 id="hi">Hello</h2><p id="ses"></p>
+<input id="nm" placeholder="Your name" aria-label="Your name"> <select id="mc" aria-label="Main crop"></select></div>
+<div class="grid4">
+<button class="qa" data-go="ask" data-q="Which crops to sow in this season?"><b>🌱</b>Season</button>
+<button class="qa" data-go="ask" data-q="How to control pests in my crop?"><b>🐛</b>Pests</button>
+<button class="qa" data-go="tools"><b>🧮</b>Fertilizer</button>
+<button class="qa" data-go="ask" data-q="How to test my soil?"><b>🧪</b>Soil</button></div>
+<div class="card"><h3>Weather today <span class="tag">sample data</span></h3>
+<div class="wx"><big>29°C</big><div>Humidity 78%<br>Rain chance 60%<br><span class="mut">Wind 12 km/h</span></div></div>
+<div class="alert"><b>High humidity alert</b><br>Fungal disease risk is higher. Scout your crop for leaf spots and stripes.<br><button class="btn s" id="wa" style="margin-top:8px">Ask about disease</button></div></div>
+<div class="card"><h3>Mandi prices per quintal <span class="tag">sample data</span></h3><div id="pr"></div></div>
+<div class="mut">Live weather and prices can be connected through public APIs in the next phase.</div>
+</section>
+
+<section id="ask" hidden>
+<div class="chips" id="sug"></div>
+<div class="chat" id="chat"><div class="m b">Hi! Ask me about pests, disease, fertilizer, irrigation, soil or season. You can type or tap the mic.</div></div>
+<div class="bar2"><button class="ic" id="mic" aria-label="Speak your question">🎤</button><input id="q" placeholder="Ask your question" aria-label="Question"><button class="ic" id="snd" aria-label="Send" style="background:var(--pri);color:var(--on)">➤</button></div>
+</section>
+
+<section id="tools" hidden>
+<div class="card"><h3>Fertilizer calculator</h3><div class="f">
+<select id="fc" aria-label="Crop"></select><input id="fa" type="number" min="0" step="0.1" value="1" aria-label="Area in acres" placeholder="Area in acres">
+<button class="btn" id="fb">Calculate</button></div><div id="fr"></div></div>
+<div class="card"><h3>Crop calendar</h3><div class="f"><select id="cc" aria-label="Crop"></select></div><div id="cr" style="margin-top:10px"></div></div>
+</section>
+
+<section id="lib" hidden>
+<div class="seg"><button class="btn s" data-s="kb">Knowledge</button><button class="btn s o" data-s="sv">Saved</button><button class="btn s o" data-s="ab">About</button></div>
+<div id="kb"><div class="f" style="margin-bottom:10px"><input id="kf" type="search" placeholder="Filter by crop or topic" aria-label="Filter"></div><div id="kl"></div></div>
+<div id="sv" hidden></div>
+<div id="ab" hidden><div class="card"><h3>How AgriRAG works</h3><ul><li><b>Question:</b> typed or spoken</li><li><b>Embed:</b> query and knowledge entries become weighted term vectors</li><li><b>Retrieve:</b> cosine similarity ranks entries, crop match adds a boost</li><li><b>Augment:</b> top 3 entries form the grounded context</li><li><b>Advise:</b> context becomes action steps with cited sources</li></ul>
+<p class="mut">This demo runs in the browser with TF-IDF cosine retrieval. The project notebook uses sentence-transformers embeddings, and an LLM plugs into the Advise step for production. Doses are indicative; confirm with your local agriculture officer.</p>
+<p class="mut">Team: L. Karthikeya Reddy, M. Leeladhara Reddy, M. Dhanush · Guide: K. Divya Bharathi · B.Tech AIML, Malla Reddy University</p></div></div>
+</section>
+</div>
+<nav><div role="tablist"><button data-go="home" aria-selected="true"><b>🏠</b>Home</button><button data-go="ask" aria-selected="false"><b>💬</b>Ask</button><button data-go="tools" aria-selected="false"><b>🧮</b>Tools</button><button data-go="lib" aria-selected="false"><b>📚</b>Library</button></div></nav>
+<div id="toast" role="status"></div>
+<script src="script.js"></script></body></html>
