@@ -1,0 +1,182 @@
+[
+ {
+  "id": 0,
+  "topic": "Rice cultivation (kharif)",
+  "text": "Transplant 20-25 day old rice seedlings in the kharif season. Keep 2-5 cm of standing water during tillering and drain the field about 10 days before harvest. Apply nitrogen in 2-3 split doses instead of one heavy dose."
+ },
+ {
+  "id": 1,
+  "topic": "Rice blast disease",
+  "text": "Rice blast shows diamond shaped leaf spots with grey centres and brown edges. It spreads in humid weather and with excess nitrogen. Use resistant varieties, avoid excess nitrogen, treat seed, and use a recommended fungicide such as tricyclazole on advice of the agriculture officer."
+ },
+ {
+  "id": 2,
+  "topic": "Rice stem borer",
+  "text": "Stem borer causes dead hearts in young rice plants and white ears at flowering. Use pheromone traps, release Trichogramma egg parasitoids, and destroy stubble after harvest."
+ },
+ {
+  "id": 3,
+  "topic": "Bacterial leaf blight in rice",
+  "text": "Bacterial leaf blight causes yellowing and drying of leaf tips and margins, mostly in wet weather. Avoid excess nitrogen, drain the field, use clean seed and resistant varieties."
+ },
+ {
+  "id": 4,
+  "topic": "Wheat cultivation (rabi)",
+  "text": "Sow wheat in November in the rabi season using certified seed. Give the first irrigation at the crown root initiation stage, about 20-25 days after sowing, then irrigate at tillering, flowering and grain filling."
+ },
+ {
+  "id": 5,
+  "topic": "Wheat yellow rust",
+  "text": "Yellow rust appears as yellow powdery stripes on wheat leaves in cool humid weather. Grow resistant varieties, scout fields regularly, and spray a recommended fungicide such as propiconazole on advice."
+ },
+ {
+  "id": 6,
+  "topic": "Cotton cultivation",
+  "text": "Sow cotton with the onset of monsoon at recommended spacing. Avoid very long duration varieties, keep the field weed free for the first 45 days, and scout regularly for sucking pests and bollworms."
+ },
+ {
+  "id": 7,
+  "topic": "Pink bollworm in cotton",
+  "text": "Pink bollworm causes rosette flowers and damaged bolls with larvae inside. Use pheromone traps, plant a refuge crop, avoid late season long duration cotton, and destroy crop residue after harvest."
+ },
+ {
+  "id": 8,
+  "topic": "Whitefly",
+  "text": "Whiteflies are tiny white insects under the leaves that suck sap and spread viral diseases in cotton, chilli, tomato and soybean. Use yellow sticky traps, neem based sprays, avoid excess nitrogen and remove weeds."
+ },
+ {
+  "id": 9,
+  "topic": "Fall armyworm in maize",
+  "text": "Fall armyworm makes ragged holes in maize leaves and leaves sawdust-like droppings in the whorl. Scout early, use neem or biopesticide sprays directly into the whorl, and follow agriculture officer advice for chemical control."
+ },
+ {
+  "id": 10,
+  "topic": "Maize cultivation",
+  "text": "Maize needs well-drained soil and is very sensitive to waterlogging. Irrigate at the knee-high, tasseling and silking stages. Apply nitrogen in splits."
+ },
+ {
+  "id": 11,
+  "topic": "Groundnut cultivation",
+  "text": "Groundnut grows best in well-drained sandy loam soil. Apply gypsum at flowering and pegging for better pod filling. Avoid waterlogging."
+ },
+ {
+  "id": 12,
+  "topic": "Groundnut leaf spot (tikka)",
+  "text": "Tikka disease causes brown to black leaf spots, often with a yellow halo, in groundnut. Use resistant varieties, treat seed, rotate crops, and spray a recommended fungicide on advice."
+ },
+ {
+  "id": 13,
+  "topic": "Chilli cultivation",
+  "text": "Raise chilli nursery seedlings and transplant at 30-35 days. Leaf curl is caused by thrips, mites or virus carried by whitefly. Use yellow sticky traps and neem sprays and remove affected plants."
+ },
+ {
+  "id": 14,
+  "topic": "Tomato cultivation",
+  "text": "Stake tomato plants and mulch the soil. Blossom end rot is caused by calcium shortage and irregular watering. Keep soil moisture even and avoid wetting foliage."
+ },
+ {
+  "id": 15,
+  "topic": "Tomato late blight",
+  "text": "Late blight shows dark water-soaked patches on tomato leaves and white growth underneath in cool wet weather. Avoid overhead irrigation, remove infected plants, and spray a protectant fungicide on advice."
+ },
+ {
+  "id": 16,
+  "topic": "Sugarcane",
+  "text": "Plant sugarcane in February-March (spring) or October (autumn). Use disease-free setts, mulch with trash, and manage red rot by using resistant varieties and removing infected clumps. Ratoon crop saves planting cost."
+ },
+ {
+  "id": 17,
+  "topic": "Redgram (pigeon pea)",
+  "text": "Redgram is often intercropped with sorghum, cotton or groundnut. Pod borer (Helicoverpa) is a major pest, and wilt is a major disease. Use resistant varieties and pheromone traps."
+ },
+ {
+  "id": 18,
+  "topic": "Soybean",
+  "text": "Soybean is a kharif crop. Inoculate seed with Rhizobium culture before sowing to improve nitrogen fixation, and avoid waterlogging. Yellow mosaic virus is spread by whitefly."
+ },
+ {
+  "id": 19,
+  "topic": "Soil sampling and testing",
+  "text": "Collect soil samples from 8-10 spots per field in a V or zigzag pattern at about 6 inches depth, mix well and send about half a kilo to the lab. Avoid bunds, manure heaps and wet spots. Test every 2-3 years and use the Soil Health Card recommendations."
+ },
+ {
+  "id": 20,
+  "topic": "Nitrogen deficiency",
+  "text": "Nitrogen deficiency shows as uniform yellowing of older (lower) leaves first. Apply urea in split doses, use green manure or compost, and grow legumes in rotation."
+ },
+ {
+  "id": 21,
+  "topic": "Phosphorus and potassium deficiency",
+  "text": "Phosphorus deficiency gives purplish tint and stunted growth. Potassium deficiency shows scorching of leaf edges on older leaves. Base fertilizer on a soil test."
+ },
+ {
+  "id": 22,
+  "topic": "Organic manure and compost",
+  "text": "Farmyard manure, compost and vermicompost improve soil organic matter and water holding capacity. Apply well-decomposed manure before sowing or land preparation."
+ },
+ {
+  "id": 23,
+  "topic": "Drip irrigation",
+  "text": "Drip irrigation saves water, often 30-50 percent, and allows fertigation. It suits chilli, tomato, sugarcane, cotton and orchards. Save water in chilli by using drip and mulch."
+ },
+ {
+  "id": 24,
+  "topic": "Irrigation scheduling and mulching",
+  "text": "Irrigate at critical crop stages and preferably in the early morning or evening. Mulching reduces evaporation and weed growth and conserves soil moisture."
+ },
+ {
+  "id": 25,
+  "topic": "Integrated pest management (IPM)",
+  "text": "IPM means monitoring fields, using resistant varieties and cultural practices first, then biological control such as Trichogramma, neem and pheromone traps, and chemicals only as a last resort."
+ },
+ {
+  "id": 26,
+  "topic": "Safe pesticide use",
+  "text": "Read the label, wear gloves and mask, avoid spraying in strong wind or midday heat, do not mix chemicals without advice, respect the pre-harvest interval, and buy only from licensed dealers."
+ },
+ {
+  "id": 27,
+  "topic": "PM-KISAN scheme",
+  "text": "PM-KISAN gives income support of Rs 6000 per year to eligible farmer families in three equal instalments directly to bank accounts. Register through the CSC, village agriculture officer or the PM-KISAN portal with Aadhaar and land details."
+ },
+ {
+  "id": 28,
+  "topic": "Crop insurance (PMFBY)",
+  "text": "Pradhan Mantri Fasal Bima Yojana covers yield loss from natural calamities, pests and diseases. Enrol before the cut-off date through the bank or CSC, and report crop loss from flood or hailstorm within 72 hours to the insurance company, bank or agriculture office."
+ },
+ {
+  "id": 29,
+  "topic": "Kharif and rabi seasons",
+  "text": "Kharif season is June to October with monsoon crops such as rice, cotton, maize, soybean and groundnut. Rabi season is October to March with crops such as wheat, chickpea and mustard."
+ },
+ {
+  "id": 30,
+  "topic": "Chickpea (rabi)",
+  "text": "Sow chickpea in October-November on well-drained soil. Avoid excess irrigation. Wilt and pod borer are main problems, so use resistant varieties and treated seed."
+ },
+ {
+  "id": 31,
+  "topic": "Powdery mildew",
+  "text": "Powdery mildew appears as white powdery growth on leaves in warm dry days with humid nights. Maintain spacing for airflow and use sulphur based or recommended fungicides on advice."
+ },
+ {
+  "id": 32,
+  "topic": "Aphids",
+  "text": "Aphids are small sap sucking insects that cause curled leaves, honeydew and sooty mould. Use yellow sticky traps, neem sprays, a strong water jet, and conserve ladybird beetles."
+ },
+ {
+  "id": 33,
+  "topic": "Seed treatment and quality seed",
+  "text": "Use certified seed and do a germination test before sowing. Treat seed with Trichoderma or a recommended fungicide to protect against soil-borne diseases."
+ },
+ {
+  "id": 34,
+  "topic": "Weed management",
+  "text": "The first 30-45 days are the critical weed-free period for most crops. Use inter-cultivation, mulching and pre-emergence herbicides strictly as per label."
+ },
+ {
+  "id": 35,
+  "topic": "Grain storage",
+  "text": "Dry grain to a safe moisture of about 12-14 percent before storage. Clean bins, use hermetic bags, and protect from rodents. This prevents weevil and fungal damage in stored grain."
+ }
+]
